@@ -1,29 +1,29 @@
 # --- Basic options --- #
 
 # Name of website
-title: Apr4h.github.io
+title: SamSec
 
 # Short description of your site
-description: CTF Writeups and sometimes other stuff too
+description: All cybersecurity related stuffs
 
 # Your name to show in the footer
-author: Apra
+author: Sameer
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  HTB Profile: "https://www.hackthebox.eu/profile/46633"
-  My Github: "https://github.com/Apr4h"
+  My Linkedin: "https://www.linkedin.com/in/samir-chapagain-667b83255"
+  My Github: "https://github.com/sameer484"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Beautiful Jekyll: ""
+    - Learn markdown: ""
   
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/3jd.png"
+avatar: "/assets/img/photo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -39,19 +39,19 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "apr4h.ctf@gmail.com"
-  github: Apr4h
+  email: "sameerchapagain484@gmail.com"
+  github: Sameer484
   rss: true
-  twitter: _Apr4h
+  twitter: sameer_cpg
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: sameer_cpg
 #  youtube: user/deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+#  telephone: sdf
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -70,7 +70,6 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://apr4h.githiub.io"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -82,7 +81,7 @@ excerpt_length: 50
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#68686b"
+navbar-col: "#000000"
 navbar-text-col: "#ffffff"
 navbar-border-col: "#2d3142"
 page-col: "#ffffff"
