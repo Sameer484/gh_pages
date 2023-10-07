@@ -1,5 +1,5 @@
 # --- Basic options --- #
-
+exclude: [vendor]
 # Name of website
 title: SamSec
 
