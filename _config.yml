@@ -1,5 +1,4 @@
 # --- Basic options --- #
-exclude: [vendor]
 # Name of website
 title: SamSec
 
@@ -194,10 +193,15 @@ defaults:
 
 # Exclude these files from production site
 exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - CHANGELOG.md
   - CNAME
   - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - screenshot.png
