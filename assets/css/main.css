@@ -222,6 +222,7 @@ flex-direction:column;
     background: no-repeat center center;
     background-size: 100% 100%;
     background-color: white;
+  border-radius:20px;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
