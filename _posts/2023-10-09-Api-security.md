@@ -3,7 +3,7 @@ title: Api Pentesting- Part 1
 tags: [Api, security, api documentation, bug bounty]
 layout: post
 ---    
-## Api Pentetration Testing - Part 1 
+## Part 1 
 <h1 align="center"> Setting up the lab environment</h1>
 Firstly you want to create an environment to start getting your hands dirty in api security and penetration testing. In this series, I will guide you from very basic to advanced api testing with every tools and commands you need. So stay with me with your laptop and enthusiasm bind together. 
 
