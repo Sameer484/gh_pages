@@ -6,7 +6,7 @@ layout: post
 
 ## Api documentation or Reversing enpoints 
 
-Here, we will be doing some automated api documentation using some of the tools installed previously. There are many ways to make the api documentation but i will cover the most easiest and automated way. 
+Here, we will be doing some automated API documentation using some of the tools installed previously. There are many ways to make the api documentation but i will cover the most easiest and automated way. In this whole series, I will be using CrAPI as a vulnerable website. You can check my part-1 blog to know how to setup this environment. In this blog, I'll create API documentation of CrAPI website. So follow along with me.
 
 - Open the terminal and type `mitmweb` . This will  run the intercepter on port 8081. Open the browser and open the page in `127.0.0.1:8081`
  ![Image](/assets/img/api/mitmweb.png)
