@@ -15,21 +15,27 @@ Firstly you want to create an environment to start getting your hands dirty in a
   docker-compose pull
   docker-compose -f docker-compose.yml --compatibility up -d
   ```
-
+ &nbsp;
+  &nbsp;
 - Postman (This may be handy when you need to organize all the api requests properly )
   ```
   snap install postman
   ```
-
+ &nbsp;
+  &nbsp;
 - Mitmweb ( This tool  acts as interceptor of all the web requests. This comes useful when automating api documentation. I'll teach you api documentation after this part.)
 ```
 this comes pre-installed in kali
 ```
+ &nbsp;
+  &nbsp;
 - Mitmproxy2swagger ( A tool to convert flow file created by mitmweb into yaml file)
 ```
 cd /opt
 sudo pip3 install mitmproxy2swagger
 ```
+ &nbsp;
+  &nbsp;
 - Kiterunner ( Great tool to find out the endpoints or bruteforce the api directory. Normal gobuster or dirbuster like dir bruteforcing tool isn't that much useful in api fuzzing.)
 ```
 pre-built binary 
