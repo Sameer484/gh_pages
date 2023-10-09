@@ -1,3 +1,9 @@
+---
+title: Api Pentesting- Part 2
+tags: [Api, security, api documentation, bug bounty]
+layout: post
+---  
+
 ## Api documentation or Reversing enpoints 
 
 Here, we will be doing some automated api documentation using some of the tools installed previously. There are many ways to make the api documentation but i will cover the most easiest and automated way. 
