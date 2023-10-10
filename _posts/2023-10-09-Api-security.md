@@ -36,6 +36,20 @@ sudo pip3 install mitmproxy2swagger
 ```
  &nbsp;
   &nbsp;
+
+- JWT_Tool ( Python based tool that is used to perfrom various attacks related to jwt tokens like bruteforcing secret key and other known attacks).
+  ```
+  git clone https://github.com/ticarpi/jwt_tool
+  python3 -m pip install termcolor cprint pycryptodomex requests
+  ```
+   &nbsp;
+  &nbsp
+- Crunch (To generate the wordlist)
+  ```
+  comes preinstalled in kali
+  ```
+   &nbsp;
+  &nbsp
 - Kiterunner ( Great tool to find out the endpoints or bruteforce the api directory. Normal gobuster or dirbuster like dir bruteforcing tool isn't that much useful in api fuzzing.)
 ```
 pre-built binary 
