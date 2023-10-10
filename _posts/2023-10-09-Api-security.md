@@ -2,6 +2,7 @@
 title: Api Pentesting- Part 1
 tags: [Api, security, api documentation, bug bounty]
 layout: post
+permalink: /api-security
 ---    
 ## Part 1 
 <h1> Setting up the lab environment</h1>
