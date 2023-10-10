@@ -41,3 +41,7 @@ sudo pip3 install mitmproxy2swagger
 pre-built binary 
 https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz
 ```
+- Zaproxy (The OWASP Zed Attack Proxy (ZAP) is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications).
+  ```
+  sudo apt install zaproxy
+  ```
