@@ -43,13 +43,13 @@ sudo pip3 install mitmproxy2swagger
   python3 -m pip install termcolor cprint pycryptodomex requests
   ```
    &nbsp;
-  &nbsp
+  &nbsp;
 - Crunch (To generate the wordlist)
   ```
   comes preinstalled in kali
   ```
    &nbsp;
-  &nbsp
+  &nbsp;
 - Kiterunner ( Great tool to find out the endpoints or bruteforce the api directory. Normal gobuster or dirbuster like dir bruteforcing tool isn't that much useful in api fuzzing.)
 ```
 pre-built binary 
