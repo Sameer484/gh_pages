@@ -5,8 +5,6 @@ layout: post
 ---  
 
 
-## Bookstore THM walkthrough
-
 Bookstore is medium rated room in tryhackme where attacker can test their api hacking skills. It contains some basic api vulnerability by leveraging which attacker had to gain full access to the machine. Let's start.
 ## Initial recon
 
