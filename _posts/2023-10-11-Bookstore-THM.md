@@ -162,6 +162,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```
 
-We get the shell as root. Now we completed the room. ![[root.png]]
+We get the shell as root. Now we completed the room.![Image](/assets/img/bookstore/root.png)
 
 It was little bit overwhelming to get the initial foothold and root was a bit messy for me because i was new to Ghidra when doing this room. Anyway this room teach  me lot more stuffs about about API enumeration and reverse engineering. That much for this blog.
