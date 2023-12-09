@@ -1,3 +1,9 @@
+---
+title: Tryhackme-Attacktive Directory
+tags: [Active Directory, security, Tryhackme, Windows]
+layout: post
+---  
+
 This blog is more of a guided than solving the challenge. This is the room from tryhackme that focus on active directory enumeration and some basic attck types. This doesn't cover all the attacks in the AD environment but this can be a great place if you know nothing about AD exploitation. You should know what active directory is and how things works in AD. I've covered some basic stuffs that you may need in order to complete this room. I
 
 ## Setting up the environmnment using tools.
