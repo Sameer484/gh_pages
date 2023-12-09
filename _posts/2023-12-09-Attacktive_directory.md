@@ -124,6 +124,7 @@ We should specify the domain name of the active directory and the ip of the doma
 4. *What notable account is discovered? (These should jump out at you)?*
 ==> svc-admin(service admin) is something special that jump out at us.
 &nbsp;
+
 5. *What is the other notable account is discovered? (These should jump out at you)?*
 ==> backup
 
@@ -146,18 +147,23 @@ Using impacket toolkit, we can find out the users that doesn't require pre-authe
 6. *We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?*
 ==> You can see the svc-admin's ticket in the above figure.
 &nbsp;
+
 7. *Looking at the Hashcat Examples Wiki page, what type of Kerberos hash did we retrieve from the KDC? (Specify the full name)*
 ==> Take a look at the hashcat examples in the wiki page and you can find the different names and codes for mode of cracking. Search for krb5asrep and you can find the name of kerberos hash. **ANS**. Kerberos 5, etype 23, AS-REP
 &nbsp;
+
 8. *What mode is the hash?*
 ==> 18200
 &nbsp;
+
 9. *Now crack the hash with the modified password list provided, what is the user accounts password?*
 ==> use hashcat to crack the password. I'll leave this up to you. This is just a basic hashcat command to crack the password, use the mode that is discoverd earlier.
 &nbsp;
+
 10. *What utility can we use to map remote SMB shares?*
 ==> smbclient tool is mostly used to list available shares.
 &nbsp;
+
 11. *How many remote shares is the server listing?*
 ==> find it out using smbmap,smbclient or crackmapexec `crackmapexec smb 10.10.211.94 -u "svc-admin" -p "management2005" --shares
 `
@@ -165,9 +171,11 @@ Using impacket toolkit, we can find out the users that doesn't require pre-authe
 12. *There is one particular share that we have access to that contains a text file. Which share is it?*
 ==> backup
 &nbsp;
+
 13. *What is the content of the file?*
 ==> read that file using the tool smbclient `smbclient  //10.10.211.94/backup/ -U svc-admin `
 &nbsp;
+
 14. *Decoding the contents of the file, what is the full contents?*
 ==> it's base64 encoded data, and you can easily decode that.
 &nbsp;
