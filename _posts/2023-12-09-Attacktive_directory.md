@@ -109,14 +109,16 @@ How it works?
 > - **If client wants to access the service like file server, he sends that TGT to KDC with the SPN(service principle name, unique identifier of service) and KDC sends back ticket that is encrypted using service  password's NTLM hash.**
 > - **Client then uses copy of that ticket to authenticate with service they want to access.**
 
-![image](https://hackmd.io/_uploads/r1ygprJ8a.png)
+![image](https://github.com/Sameer484/gh_pages/assets/110039044/0224ba12-6d90-4861-aaa3-30fe33752555)
+
 
 ---
 ---
 
 Now we will use kerbrute tool to bruteforce some users and password. To know more information about how the tool works, visit the github.[https://github.com/ropnop/kerbrute](https://)
 We should specify the domain name of the active directory and the ip of the domain controller. The command and output looks like below.
-![image](https://hackmd.io/_uploads/rkkSfuy8a.png)
+![image](https://github.com/Sameer484/gh_pages/assets/110039044/28ab2cc3-2edf-4aa5-bd63-90d81c6e4d20)
+
 
 &nbsp;
 4. *What notable account is discovered? (These should jump out at you)?*
@@ -138,7 +140,8 @@ We should specify the domain name of the active directory and the ip of the doma
 Using impacket toolkit, we can find out the users that doesn't require pre-authentication. Run the impacket-GetNPUsers and get the valid ticket. 
 `impacket-GetNPUsers spookysec.local/ -usersfile valid_user.txt -dc-ip 10.10.147.140`
 
-![image](https://hackmd.io/_uploads/rkjPpFxIa.png)
+![image](https://github.com/Sameer484/gh_pages/assets/110039044/7959a318-ffc0-4041-875d-c12ee2fa7119)
+
 &nbsp;
 6. *We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?*
 ==> You can see the svc-admin's ticket in the above figure.
@@ -190,7 +193,8 @@ The user backup is something special because all the active directory changes ar
 16. *What is the Administrators NTLM hash?*
 ==> secretsdump.py tool can be used to perform and dump the NTDIS.DIT file. You can use impacket-secretsdump too. Run the below command and you will get all the hashes.
 
-![image](https://hackmd.io/_uploads/BkbOV6WLa.png)
+![image](https://github.com/Sameer484/gh_pages/assets/110039044/1acd6711-3971-45ea-8376-513f247b45cb)
+
 
 The first hash is the LM hash(LAN manager hash. Take a look at wiki to know about this, it's so insecure) and second part is NTLM hash
 
@@ -200,7 +204,8 @@ The first hash is the LM hash(LAN manager hash. Take a look at wiki to know abou
 18. *Using a tool called Evil-WinRM what option will allow us to use a hash?*
 ==> Evil-WinRM(windows remote management) tool is used to remotely connect and manage the windows machine. -H flag is used to connect to machine using hash.
 
-![image](https://hackmd.io/_uploads/Skqud6ZLT.png)
+![image](https://github.com/Sameer484/gh_pages/assets/110039044/2243a5df-5e5b-49df-9ac5-d87997c2d764)
+
 
 I'll leave the last part of the flag submissions up to you. Once you became administrator, you can find each users password in the desktop of each users.
 
