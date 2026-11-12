@@ -1,0 +1,1 @@
+{"client_id":"https://www.samirchapagain.com.np/cimd-b.json","client_name":"samsec-research-client","token_endpoint_auth_method":"private_key_jwt","jwks_uri":"https://192.0.2.1/jwks.json","grant_types":["client_credentials","authorization_code"],"response_types":["code"],"redirect_uris":["https://www.samirchapagain.com.np/callback"],"scope":"api:internal"}
